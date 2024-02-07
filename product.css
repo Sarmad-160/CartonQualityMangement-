@@ -1,0 +1,118 @@
+.box1{
+    border: 1px solid black;
+    height: 70px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    background-color: darkblue;
+}
+.box2{
+    height: 50px;
+    width: 80%;
+    text-align: center;
+    font-size: 25px;
+    color: white;
+    padding-top: 10px;
+}
+.box3{
+    height: 50px;
+    width: 20%;
+    text-align: center;
+    padding-top: 10px;
+
+}
+.add{
+    padding: 10px;
+    border-radius: 5px;
+    background-color:white;
+    margin-top: 5px;
+    color:black;
+    border: none;
+    width: 100px;
+    height: 40px;
+    
+
+}
+
+.form-container {
+    margin: auto;
+    background-color: #fff;
+    padding: 10px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 80vw;
+    max-width: 900px;
+    
+    text-align: center;
+    animation: fadeIn 1s ease-in-out; 
+}
+
+.form-heading {
+    font-size: 32px;
+    font-weight: bold;
+    margin-bottom: 30px;
+    color: #333;
+}
+
+.form-group {
+    margin-bottom: 20px;
+    opacity: 0;
+    animation: fadeInUp 1s forwards; 
+}
+
+.form-label {
+    display: block;
+    font-size: 16px;
+    margin-bottom: 8px;
+    color: #555;
+}
+
+.form-input {
+    width: 100%;
+    padding: 12px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    
+    margin-top: 6px;
+    box-sizing: border-box;
+}
+
+.form-checkbox {
+    margin-top: 12px;
+    text-align: left;
+}
+
+.form-checkbox label {
+    display: block;
+    margin-bottom: 8px;
+    color: #555;
+}
+
+.form-submit {
+    background-color: #007BFF;
+    color: #fff;
+    padding: 14px 24px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    opacity: 0;
+    animation: fadeInUp 1s forwards 0.5s; 
+}
+
+
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+
+@keyframes fadeInUp {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
